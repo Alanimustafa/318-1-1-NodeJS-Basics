@@ -5,4 +5,10 @@
         // index.js file has been created. and console.log has been added to the file
 
         console.log ("hello World!");
+
+// Part 3: Node Package Manager - Installed 
+        // npm has been itailized in this project.
+        // npm start command has been added to the package.json file.
+        // nodemon has been installed.
+        
     
