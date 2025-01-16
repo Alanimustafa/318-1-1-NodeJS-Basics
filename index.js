@@ -22,7 +22,7 @@
         res.setHeader('Content-Type', 'text/html');
         res.write('<h1 style="color: red">Hello World!</h1>');
         res.write('<p>I wonder what else we can send...</p>');
-        res.write('<button onclick ="window.location.href="https://www.google.com"" >Open Google</button>');
+        res.write('<button onclick ="window.location.href="https://www.google.com"" >Open Google</button>'); // Part 5| adding an html button
         res.end();
     });
 
