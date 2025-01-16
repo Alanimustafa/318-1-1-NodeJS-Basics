@@ -19,8 +19,11 @@
     // crating a server for the hpp module using createServer method. 
     const server = http.createServer((req, res) => {
         res.statusCode = 200 ;
-        res.setHeader('content-type', 'text/plain');
-        res.end('Hello World!\n');
+        res.setHeader('Content-Type', 'text/html');
+        res.write('<h1 style="color: red">Hello World!</h1>');
+        res.write('<p>I wonder what else we can send...</p>');
+        res.write('<button onclick ="window.location.href="https://www.google.com"" >Open Google</button>');
+        res.end();
     });
 
     // Using the listen method to make the http server listen to the communications using the port and the hostname.
